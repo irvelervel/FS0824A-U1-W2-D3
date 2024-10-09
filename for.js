@@ -53,5 +53,31 @@ console.log("LUNGHEZZA DELL'ARRAY", arrayOfNames.length) // 8
 for (let i = 0; i < arrayOfNames.length; i++) {
   // la condizione è che i sia sempre minore di 8 (la lunghezza dell'array)
   //   console.log('I VALE', i)
-  console.log(arrayOfNames[i].toUpperCase()) // un nome alla volta
+  console.log(arrayOfNames[i]) // un nome alla volta
 }
+
+// altro esempio
+let arrayOfNumbers = [45, 7, -5, 0, 98, 1] // 6 elementi
+
+for (let i = 0; i < arrayOfNumbers.length; i++) {
+  // la i vale tutti i valori da 0 a 5
+  // 0 alla prima iterazione
+  // 1 alla seconda iterazione
+  // 2 alla terza iterazione
+  // 3 alla quarta iterazione
+  // 4 alla quinta iterazione
+  // 5 alla sesta iterazione
+  console.log("prendo l'elemento i-esimo dell'array", arrayOfNumbers[i])
+  console.log('LA I VALE', i)
+  //   arrayOfNumbers.push(i)
+}
+
+// pusha i numeri da 1 a 10 in un array
+
+const array = []
+
+for (let i = 0; i < 10; i++) {
+  array.push(i + 1) // pusho ogni volta il valore che ha i in quel momento incrementato di 1
+}
+
+console.log(array)
